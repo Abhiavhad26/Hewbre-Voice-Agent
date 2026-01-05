@@ -57,3 +57,12 @@ Non commercial. See [LICENSE](LICENSE)
 ## Play 🕹️
 
 See [TTS with Hebrew Space](https://huggingface.co/spaces/thewh1teagle/phonikud-tts)
+
+## 🐳 Run with Docker
+
+### 1️⃣ Build the Docker image
+Run this command **inside the `phonikud-tts` folder**:
+
+docker build -t voice-assistant .
+
+docker run -p 8000:8000 voice-assistant
